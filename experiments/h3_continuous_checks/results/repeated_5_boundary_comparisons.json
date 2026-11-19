@@ -1,0 +1,9 @@
+{
+  "naive_minus_block_aware_ever_false_hot_maps": {
+    "mean": 0.9845,
+    "ci95": [
+      0.979,
+      0.9895
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "uniform/full_area/false_positive_cells": {
+    "absolute_difference": 0.0009713873199248338,
+    "allowed_monte_carlo_difference": 0.0276053616690398,
+    "passed": true
+  },
+  "uniform/sea_area/false_positive_cells": {
+    "absolute_difference": 0.008807112739574574,
+    "allowed_monte_carlo_difference": 0.10430416989774165,
+    "passed": true
+  },
+  "uniform/shrink/false_positive_cells": {
+    "absolute_difference": 0.006648860589206364,
+    "allowed_monte_carlo_difference": 0.02749979156148241,
+    "passed": true
+  },
+  "uniform/exclude_small/false_positive_cells": {
+    "absolute_difference": 0.011665052236233486,
+    "allowed_monte_carlo_difference": 0.08552197693415563,
+    "passed": true
+  },
+  "uniform/raw_density_expectation": {
+    "max_abs_standardized_mean_error": 2.8220605102630745,
+    "theory": "E[N/A]=lambda; Var[N/A]=lambda/A",
+    "passed": true
+  },
+  "hotspots/full_area/false_positive_cells": {
+    "absolute_difference": 0.0012292911767852535,
+    "allowed_monte_carlo_difference": 0.027880310953189803,
+    "passed": true
+  },
+  "hotspots/full_area/small_hotspot_detected": {
+    "absolute_difference": 2.4598078141385885e-06,
+    "allowed_monte_carlo_difference": 0.005,
+    "passed": true
+  },
+  "hotspots/full_area/full_hotspot_detected": {
+    "absolute_difference": 0.0008804218742017866,
+    "allowed_monte_carlo_difference": 0.020267745479474467,
+    "passed": true
+  },
+  "hotspots/sea_area/false_positive_cells": {
+    "absolute_difference": 0.012616900551498444,
+    "allowed_monte_carlo_difference": 0.10087866412355284,
+    "passed": true
+  },
+  "hotspots/sea_area/small_hotspot_detected": {
+    "absolute_difference": 0.0072590738029174595,
+    "allowed_monte_carlo_difference": 0.05737899655052413,
+    "passed": true
+  },
+  "hotspots/sea_area/full_hotspot_detected": {
+    "absolute_difference": 0.0008804218742017866,
+    "allowed_monte_carlo_difference": 0.020267745479474467,
+    "passed": true
+  },
+  "hotspots/shrink/false_positive_cells": {
+    "absolute_difference": 0.00011131456057798111,
+    "allowed_monte_carlo_difference": 0.025754812842520743,
+    "passed": true
+  },
+  "hotspots/shrink/small_hotspot_detected": {
+    "absolute_difference": 0.012954604183990706,
+    "allowed_monte_carlo_difference": 0.036517997907482135,
+    "passed": true
+  },
+  "hotspots/shrink/full_hotspot_detected": {
+    "absolute_difference": 0.001968366192571791,
+    "allowed_monte_carlo_difference": 0.027304049190789388,
+    "passed": true
+  },
+  "hotspots/exclude_small/false_positive_cells": {
+    "absolute_difference": 0.0015928516205834242,
+    "allowed_monte_carlo_difference": 0.08698693678813688,
+    "passed": true
+  },
+  "hotspots/exclude_small/small_hotspot_detected": {
+    "absolute_difference": 0.0,
+    "allowed_monte_carlo_difference": 0.005,
+    "passed": true
+  },
+  "hotspots/exclude_small/full_hotspot_detected": {
+    "absolute_difference": 0.0008804218742017866,
+    "allowed_monte_carlo_difference": 0.020267745479474467,
+    "passed": true
+  },
+  "hotspots/raw_density_expectation": {
+    "max_abs_standardized_mean_error": 3.2221767723307253,
+    "theory": "E[N/A]=lambda; Var[N/A]=lambda/A",
+    "passed": true
+  }
+}

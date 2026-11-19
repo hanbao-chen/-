@@ -1,0 +1,127 @@
+{
+  "comparison_type": "post-hoc diagnostic; all saved stage-one observations retained",
+  "fixed_threshold_calibration": "known Poisson uniform null model only; oracle diagnostic, not a fitted deployment method",
+  "shrink_null_expected_fp": 0.03235206325781558,
+  "fixed_threshold": 17.592168248036156,
+  "fixed_null_expected_fp": 0.03214722958315305,
+  "fixed_threshold_low_bracket": 17.592168248036153,
+  "fixed_null_expected_fp_low_bracket": 0.03367354558178569,
+  "scenarios": {
+    "uniform": {
+      "identical_adaptive_threshold_mismatches": 0,
+      "decision_count": 352000,
+      "methods": {
+        "raw_threshold_2": {
+          "false_positive_cells_per_snapshot": 0.933,
+          "small_cell_positive_fraction": 0.131,
+          "full_cell_positive_fraction": 0.0005,
+          "different_decisions_from_shrink": 1788
+        },
+        "raw_threshold_4": {
+          "false_positive_cells_per_snapshot": 0.236,
+          "small_cell_positive_fraction": 0.0095,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 482
+        },
+        "raw_threshold_8": {
+          "false_positive_cells_per_snapshot": 0.092,
+          "small_cell_positive_fraction": 0.0005,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 214
+        },
+        "raw_fixed_null_matched": {
+          "false_positive_cells_per_snapshot": 0.0315,
+          "small_cell_positive_fraction": 0.0,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 139
+        },
+        "shrink_tau_1_threshold_2": {
+          "false_positive_cells_per_snapshot": 0.039,
+          "small_cell_positive_fraction": 0.0005,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 0
+        },
+        "raw_exact_adaptive_threshold": {
+          "false_positive_cells_per_snapshot": 0.039,
+          "small_cell_positive_fraction": 0.0005,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 0
+        }
+      }
+    },
+    "hotspots": {
+      "identical_adaptive_threshold_mismatches": 0,
+      "decision_count": 352000,
+      "methods": {
+        "raw_threshold_2": {
+          "false_positive_cells_per_snapshot": 0.8255,
+          "small_cell_positive_fraction": 0.675,
+          "full_cell_positive_fraction": 0.981,
+          "different_decisions_from_shrink": 2807
+        },
+        "raw_threshold_4": {
+          "false_positive_cells_per_snapshot": 0.23,
+          "small_cell_positive_fraction": 0.3015,
+          "full_cell_positive_fraction": 0.449,
+          "different_decisions_from_shrink": 1911
+        },
+        "raw_threshold_8": {
+          "false_positive_cells_per_snapshot": 0.095,
+          "small_cell_positive_fraction": 0.087,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 2130
+        },
+        "raw_fixed_null_matched": {
+          "false_positive_cells_per_snapshot": 0.0245,
+          "small_cell_positive_fraction": 0.011,
+          "full_cell_positive_fraction": 0.0,
+          "different_decisions_from_shrink": 2183
+        },
+        "shrink_tau_1_threshold_2": {
+          "false_positive_cells_per_snapshot": 0.0325,
+          "small_cell_positive_fraction": 0.087,
+          "full_cell_positive_fraction": 0.9585,
+          "different_decisions_from_shrink": 0
+        },
+        "raw_exact_adaptive_threshold": {
+          "false_positive_cells_per_snapshot": 0.0325,
+          "small_cell_positive_fraction": 0.087,
+          "full_cell_positive_fraction": 0.9585,
+          "different_decisions_from_shrink": 0
+        }
+      }
+    }
+  },
+  "mechanism": {
+    "expected_historical_regional_mean": 0.5231253187791656,
+    "small": {
+      "area": 0.275460067898726,
+      "data_weight": 0.2159691822830145,
+      "expected_shrunk_density_at_true_4": 1.2740231005829459,
+      "equivalent_raw_threshold": 7.361483762371733
+    },
+    "full": {
+      "area": 4.045998133165325,
+      "data_weight": 0.8018231529997206,
+      "expected_shrunk_density_at_true_4": 3.3109639382605534,
+      "equivalent_raw_threshold": 2.365021098036302
+    },
+    "small_count_examples": [
+      {
+        "count": 1,
+        "raw_density": 3.630290254512149,
+        "shrunk_density": 1.1941771891678734
+      },
+      {
+        "count": 2,
+        "raw_density": 7.260580509024298,
+        "shrunk_density": 1.9782080068848589
+      },
+      {
+        "count": 3,
+        "raw_density": 10.890870763536448,
+        "shrunk_density": 2.7622388246018446
+      }
+    ]
+  }
+}

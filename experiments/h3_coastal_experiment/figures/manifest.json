@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "results\\stage1\\summary.json": "d648ad0ddeb01f4df92cc90c3925bc2bad94da846387d89ccb5ff5ddb4ef6b8e",
+    "results\\stage1\\sensitivity.csv": "3f7c3cb2c82a0a34cdf0863e22210d714aa00e9f45114829fa6a0b403f36b4fa",
+    "results\\stage1\\uniform_counts.npz": "c51a351eb1b2f2e27e7e550e2da92c511e1a28c1f904931492eb459e5cf00352",
+    "results\\stage1\\hotspots_counts.npz": "e86f553cd06f7dd1064e2c94e2c1376df58463caac4b7037c404acb12c5d778f",
+    "src\\analyze_and_plot.py": "b8d93abd349a9a154565550445f875f1a874ce95f9643b953bab65ada93ea2ee"
+  },
+  "figures": {
+    "01_main_results.png": "47fd0c1082e0395f228b66882d0c2fda34aa6bd2ebd1f44673193ee9a8892bc6",
+    "02_tradeoff.png": "6dfbc724635e5af1748758dca3592f80f1132c304801aa6d9ed1b95f907113fb",
+    "03_why_hotspot_is_missed.png": "1e74e0dee89507378f2875bcbaa71ba2dca7ffaa32888b27c85fcd5f9d195318",
+    "04_synthetic_map.png": "81917b1960c1a5f420f2e2ead0942204f0e6f0ad1c737ddb0c1f7e49d6f608d6"
+  }
+}

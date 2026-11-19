@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "all original experiment file SHA-256 fingerprints matched",
+    "independent_uniform: all methods replayed with direct p-values on 11 predetermined sequences",
+    "independent_hotspots: all methods replayed with direct p-values on 11 predetermined sequences",
+    "independent_boundary: all methods replayed with direct p-values on 11 predetermined sequences",
+    "repeated_5_uniform: all methods replayed with direct p-values on 11 predetermined sequences",
+    "repeated_5_hotspots: all methods replayed with direct p-values on 11 predetermined sequences",
+    "repeated_5_boundary: all methods replayed with direct p-values on 11 predetermined sequences",
+    "all three-state proportions sum to one for both target cells at every look"
+  ],
+  "passed": true
+}

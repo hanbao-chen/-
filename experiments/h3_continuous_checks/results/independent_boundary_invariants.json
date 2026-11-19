@@ -1,0 +1,16 @@
+{
+  "poisson_fixed/global_error_bound_check": {
+    "observed": 0.0405,
+    "design_bound": 0.05,
+    "loose_monte_carlo_upper": 0.07936698586202241,
+    "passed": true
+  },
+  "poisson_fixed/same_evidence_binary_vs_three_state_hot_mismatches": 0,
+  "poisson_sequential/global_error_bound_check": {
+    "observed": 0.0345,
+    "design_bound": 0.05,
+    "loose_monte_carlo_upper": 0.07936698586202241,
+    "passed": true
+  },
+  "poisson_sequential/same_evidence_binary_vs_three_state_hot_mismatches": 0
+}

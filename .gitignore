@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+reproductions/
+work/
+!report/

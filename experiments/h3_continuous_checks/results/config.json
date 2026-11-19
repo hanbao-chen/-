@@ -1,0 +1,32 @@
+{
+  "n_repeats_per_case": 2000,
+  "n_cells": 176,
+  "looks": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    120
+  ],
+  "max_round": 120,
+  "family_any_direction_alpha": 0.05,
+  "small_cell_index": 103,
+  "full_cell_index": 113,
+  "background_density": 0.5,
+  "business_threshold": 2,
+  "hotspot_density": 4,
+  "block_sizes": [
+    1,
+    5
+  ],
+  "rng_seed_components": [
+    20261119,
+    601,
+    "case_index"
+  ],
+  "history_used": false,
+  "null_model": "known parameters; exact one-sided Poisson at business boundary 2",
+  "time_unit": "synthetic observation round, not real minutes"
+}

@@ -1,0 +1,45 @@
+{
+  "run_type": "stage_one_fixed_design",
+  "n_repeats_per_scenario": 2000,
+  "first_seed": 2026111900,
+  "h3_resolution": 7,
+  "disk_k": 10,
+  "projection_center_lat_lng": [
+    30.5,
+    122.0
+  ],
+  "baseline_density": 0.5,
+  "hotspot_density": 4.0,
+  "hotspot_threshold_strictly_greater_than": 2.0,
+  "historical_snapshots": 20,
+  "main_tau_km2": 1.0,
+  "sensitivity_tau_km2": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "small_hotspot_index": 103,
+  "full_hotspot_index": 113,
+  "small_hotspot_cell": {
+    "cell": "874b35900ffffff",
+    "full_area_km2": 4.043106005053653,
+    "sea_area_km2": 0.275460067898726,
+    "sea_fraction": 0.06813080526565876,
+    "x_km": -1.9370242850227202,
+    "y_km": -3.0744143825166,
+    "h3_area_km2": 4.043106005129333,
+    "design_role": "small_hotspot"
+  },
+  "full_hotspot_cell": {
+    "cell": "874b3590effffff",
+    "full_area_km2": 4.04599813316533,
+    "sea_area_km2": 4.045998133165325,
+    "sea_fraction": 0.9999999999999987,
+    "x_km": 0.8183582848130754,
+    "y_km": -3.4900929758405614,
+    "h3_area_km2": 4.045998133244427,
+    "design_role": "full_hotspot"
+  }
+}

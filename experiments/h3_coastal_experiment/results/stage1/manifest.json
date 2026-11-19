@@ -1,0 +1,28 @@
+{
+  "created_at_hong_kong": "2026-11-19T20:55:36.343447+08:00",
+  "wall_seconds": 1.422020435333252,
+  "environment": {
+    "python": "3.11.4",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "1.24.3",
+    "h3": {
+      "c": "4.3.0",
+      "python": "4.3.1"
+    },
+    "shapely": "2.1.2"
+  },
+  "sha256": {
+    "results\\stage1\\cells.csv": "5621ab08a269ef08eb0bb0e614a72b9546d9acf1c2891e89b06cce19f23b1e07",
+    "results\\stage1\\checks.json": "2210944c416834fddc349666faa2c2fa62acd21588b32a84952630f1925540a1",
+    "results\\stage1\\config.json": "a73d72d4bb0ee0495e7504833631116fbaee49ce0230657f436cb04649b8f014",
+    "results\\stage1\\geometry.json": "5dbbbcd2b209d4d773d1130f093a16c08e17de8f84e6954be4e06b3d38a2d038",
+    "results\\stage1\\hotspots_counts.npz": "e86f553cd06f7dd1064e2c94e2c1376df58463caac4b7037c404acb12c5d778f",
+    "results\\stage1\\sensitivity.csv": "3f7c3cb2c82a0a34cdf0863e22210d714aa00e9f45114829fa6a0b403f36b4fa",
+    "results\\stage1\\summary.json": "d648ad0ddeb01f4df92cc90c3925bc2bad94da846387d89ccb5ff5ddb4ef6b8e",
+    "results\\stage1\\trials.csv": "0f6f8a3808bc3519984736ea728fea31a22fe9fc78dc96496f22110dee53f267",
+    "results\\stage1\\uniform_counts.npz": "c51a351eb1b2f2e27e7e550e2da92c511e1a28c1f904931492eb459e5cf00352",
+    "src\\coastal_experiment.py": "b22ad2b902194babe2ebfbe4dee9caf3f441e29d364030ef346f52974845b327",
+    "EXPERIMENT_PLAN.md": "2ffb13f3e809c56761bb04e05d790d48506d14d8922257d11dea9d904f629077",
+    "requirements.txt": "4a2e796f82f37408ab3ce0f447f4f7654fab1b31f8aee5e62bc43ecce614f1c9"
+  }
+}

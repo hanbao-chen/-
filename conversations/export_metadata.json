@@ -1,0 +1,30 @@
+{
+  "exported_at_hong_kong": "2026-11-19T22:25:17.546679+08:00",
+  "source_session": "rollout-2026-11-19T20-35-19-01a1f3cd-e491-7f52-b070-548e6b10383d.jsonl",
+  "source_bytes": 11719625,
+  "source_sha256": "3f40fcf4cb8514196f0dd08b69bec37f97f8ed93657ad2c06f2ea0071829f16b",
+  "last_exported_message_utc": "2026-11-19T14:25:02.697Z",
+  "user_message_count": 24,
+  "assistant_message_count": 40,
+  "structured_question_count": 4,
+  "image_attachments": [
+    "attachments/attachment_001.png"
+  ],
+  "all_required_research_questions_found": {
+    "其实没有理解": true,
+    "先理解独立观测": true,
+    "理解看起来更好的错误结果": true,
+    "弄清统计数字的含义": true,
+    "讨论严格校正的代价": true,
+    "把等待联系到实际应用": true,
+    "追问门槛附近的困难": true,
+    "检查“待观察”的实际价值": true,
+    "确定作业的贡献": true,
+    "明确结论边界": true,
+    "形成自己的理解": true,
+    "22634107": true
+  },
+  "transcript_sha256": "ebf3edbd77fb72f034db72b4450ad261204555e8e76d9961a40bb16534d26862",
+  "scope": "actual visible research and preparation messages through the export cutoff; delivery notice after export excluded",
+  "reconstructed_or_fictional_dialogue": false
+}

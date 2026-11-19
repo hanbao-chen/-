@@ -1,0 +1,11 @@
+﻿scenario,tau_km2,false_positive_cells,small_hotspot_recall,full_hotspot_recall
+uniform,0,0.933,,
+uniform,0.25,0.493,,
+uniform,0.5,0.2355,,
+uniform,1,0.039,,
+uniform,2,0.002,,
+hotspots,0,0.8255,0.675,0.981
+hotspots,0.25,0.3745,0.675,0.981
+hotspots,0.5,0.229,0.3015,0.981
+hotspots,1,0.0325,0.087,0.9585
+hotspots,2,0.003,0.0275,0.88

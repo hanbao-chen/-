@@ -1,0 +1,23 @@
+{
+  "sequential_minus_fixed_small_confirmed": {
+    "mean": -0.0015,
+    "ci95": [
+      -0.0035,
+      0.0
+    ]
+  },
+  "sequential_minus_fixed_pending_cell_rounds": {
+    "mean": -19649.376,
+    "ci95": [
+      -19651.441525000002,
+      -19647.31035
+    ]
+  },
+  "sequential_minus_fixed_censored_small_wait": {
+    "mean": -59.86,
+    "ci95": [
+      -61.0851875,
+      -58.605
+    ]
+  }
+}

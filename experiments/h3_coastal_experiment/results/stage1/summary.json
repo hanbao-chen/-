@@ -1,0 +1,185 @@
+{
+  "geometry": {
+    "sea_cells": 176,
+    "full_disk_cells": 331,
+    "small_fraction_cells": 5,
+    "total_sea_area_km2": 654.0495224373243,
+    "max_projection_area_relative_error": 1.9549373618844066e-11
+  },
+  "scenarios": {
+    "uniform": {
+      "full_area": {
+        "empirical": {
+          "false_positive_cells": 0.0405,
+          "background_false_positive_rate": 0.00023011363636363634,
+          "small_hotspot_detected": null,
+          "full_hotspot_detected": null,
+          "mse_cell_equal_weight_published": 0.12794807035930614,
+          "mse_area_weight_published": 0.12333973249874271,
+          "published_cell_fraction": 1.0,
+          "published_sea_area_fraction": 1.0
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.03952861268007517,
+          "small_hotspot_detection_probability": null,
+          "full_hotspot_detection_probability": null
+        }
+      },
+      "sea_area": {
+        "empirical": {
+          "false_positive_cells": 0.933,
+          "background_false_positive_rate": 0.005301136363636363,
+          "small_hotspot_detected": null,
+          "full_hotspot_detected": null,
+          "mse_cell_equal_weight_published": 0.357145136293173,
+          "mse_area_weight_published": 0.13406956736737868,
+          "published_cell_fraction": 1.0,
+          "published_sea_area_fraction": 1.0
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.9418071127395746,
+          "small_hotspot_detection_probability": null,
+          "full_hotspot_detection_probability": null
+        }
+      },
+      "shrink": {
+        "empirical": {
+          "false_positive_cells": 0.039,
+          "background_false_positive_rate": 0.00022159090909090908,
+          "small_hotspot_detected": null,
+          "full_hotspot_detected": null,
+          "mse_cell_equal_weight_published": 0.08142318875438931,
+          "mse_area_weight_published": 0.08051051611358295,
+          "published_cell_fraction": 1.0,
+          "published_sea_area_fraction": 1.0
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.032351139410793636,
+          "small_hotspot_detection_probability": null,
+          "full_hotspot_detection_probability": null
+        }
+      },
+      "exclude_small": {
+        "empirical": {
+          "false_positive_cells": 0.6075,
+          "background_false_positive_rate": 0.003451704545454546,
+          "small_hotspot_detected": null,
+          "full_hotspot_detected": null,
+          "mse_cell_equal_weight_published": 0.1458709105887367,
+          "mse_area_weight_published": 0.13034941865992725,
+          "published_cell_fraction": 0.9715909090909091,
+          "published_sea_area_fraction": 0.9989613213135263
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.6191650522362335,
+          "small_hotspot_detection_probability": null,
+          "full_hotspot_detection_probability": null
+        }
+      }
+    },
+    "hotspots": {
+      "full_area": {
+        "empirical": {
+          "false_positive_cells": 0.0405,
+          "background_false_positive_rate": 0.0002327586206896552,
+          "small_hotspot_detected": 0.0,
+          "full_hotspot_detected": 0.981,
+          "mse_cell_equal_weight_published": 0.21129453444567706,
+          "mse_area_weight_published": 0.13494810198153898,
+          "published_cell_fraction": 1.0,
+          "published_sea_area_fraction": 1.0
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.03927070882321475,
+          "small_hotspot_detection_probability": 2.4598078141385885e-06,
+          "full_hotspot_detection_probability": 0.9801195781257982
+        }
+      },
+      "sea_area": {
+        "empirical": {
+          "false_positive_cells": 0.8255,
+          "background_false_positive_rate": 0.004744252873563218,
+          "small_hotspot_detected": 0.675,
+          "full_hotspot_detected": 0.981,
+          "mse_cell_equal_weight_published": 0.4050678252992421,
+          "mse_area_weight_published": 0.14517686129296783,
+          "published_cell_fraction": 1.0,
+          "published_sea_area_fraction": 1.0
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.8128830994485016,
+          "small_hotspot_detection_probability": 0.6677409261970826,
+          "full_hotspot_detection_probability": 0.9801195781257982
+        }
+      },
+      "shrink": {
+        "empirical": {
+          "false_positive_cells": 0.0325,
+          "background_false_positive_rate": 0.00018678160919540228,
+          "small_hotspot_detected": 0.087,
+          "full_hotspot_detected": 0.9585,
+          "mse_cell_equal_weight_published": 0.1333101430130074,
+          "mse_area_weight_published": 0.09076109126570728,
+          "published_cell_fraction": 1.0,
+          "published_sea_area_fraction": 1.0
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.03238868543942202,
+          "small_hotspot_detection_probability": 0.0999546041839907,
+          "full_hotspot_detection_probability": 0.9604683661925718
+        }
+      },
+      "exclude_small": {
+        "empirical": {
+          "false_positive_cells": 0.6205,
+          "background_false_positive_rate": 0.0035660919540229886,
+          "small_hotspot_detected": 0.0,
+          "full_hotspot_detected": 0.981,
+          "mse_cell_equal_weight_published": 0.15102397259453484,
+          "mse_area_weight_published": 0.13622063333759452,
+          "published_cell_fraction": 0.9715909090909091,
+          "published_sea_area_fraction": 0.9989613213135263
+        },
+        "poisson_tail_check": {
+          "expected_false_positive_cells": 0.6189071483794166,
+          "small_hotspot_detection_probability": 0.0,
+          "full_hotspot_detection_probability": 0.9801195781257982
+        }
+      }
+    }
+  },
+  "paired_bootstrap": {
+    "uniform_sea_minus_shrink_false_positive_cells": {
+      "mean": 0.894,
+      "ci95": [
+        0.855,
+        0.9325
+      ],
+      "unit": "independent simulated snapshot repeat"
+    },
+    "hotspots_sea_minus_shrink_false_positive_cells": {
+      "mean": 0.793,
+      "ci95": [
+        0.756,
+        0.83
+      ],
+      "unit": "independent simulated snapshot repeat"
+    },
+    "hotspots_sea_minus_shrink_small_hotspot_detected": {
+      "mean": 0.588,
+      "ci95": [
+        0.566,
+        0.609
+      ],
+      "unit": "independent simulated snapshot repeat"
+    },
+    "hotspots_sea_minus_shrink_full_hotspot_detected": {
+      "mean": 0.0225,
+      "ci95": [
+        0.0165,
+        0.029
+      ],
+      "unit": "independent simulated snapshot repeat"
+    }
+  }
+}
